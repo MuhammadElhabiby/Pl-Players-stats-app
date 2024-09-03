@@ -35,13 +35,11 @@ This project is a full CRUD (Create, Read, Update, Delete) RESTful API built wit
 
 Update the `application.properties` file in the `src/main/resources/` directory with your database connection details.
 
-    ```properties
     spring.datasource.url=jdbc:mysql://localhost:3306/epl_db
     spring.datasource.username=your_username
     spring.datasource.password=your_password
     spring.jpa.hibernate.ddl-auto=update
     spring.jpa.show-sql=true
-    ```
 
 3. **Build and Run the Application:**
 
